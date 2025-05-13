@@ -7,9 +7,24 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-menu{
-    background-image: url(imagens/headerimg.jpg);
+header{
+    background-image: url(../imagens/img1.jpg);
     background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 20px;
+}
+
+header > h1 {
+     color:#F9D000 ;
+     padding: 10px;
+}
+
+header > p{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    background-color: rgba(19, 18, 18, 0.384);
 }
 
 span#burguer{
