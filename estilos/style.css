@@ -23,6 +23,7 @@ header{
 header > h1 {
      color:#F9D000 ;
      margin-top: 15px;
+     padding-top: 50px;
 }
 
 header > p{
@@ -36,7 +37,6 @@ span#burguer{
     cursor: pointer;
 }
 
-
 section#seguros{
     display: flex;
     flex-flow: column wrap;
@@ -49,12 +49,9 @@ section#seguros{
     text-align: center;
 }
 
-img{
-    display: flex;
-    flex-direction: column;
-    width: 50px;
-    align-self: center;
-    padding-top: 20px
+section#seguros > div#seg > span.material-symbols-outlined{
+    font-size: 70px;
+    color: #17206B;
 }
 
 section#seguros > div#seg > h2{
@@ -62,7 +59,7 @@ section#seguros > div#seg > h2{
 }
 
 section#seguros > div#seg > p{
-    color: rgb(161, 158, 158);
+    color:rgb(129, 129, 129);
     font-size: 1.5em;
 }
 
